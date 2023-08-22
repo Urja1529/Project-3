@@ -9,43 +9,53 @@
 
   <!-- Leaflet CSS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
-
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin="" />
   <!-- Our CSS -->
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
-
-  <!-- Source timeline code: https://timeline.knightlab.com -->
-  <div style="border: 5px solid black; margin: 15px; height: 100%; width: 100%;">
-    <h1>Riddhi Mistry Plot C:</h1>
-    <p>Timeline showcasing cat and dog art pieces based on the year they were made.</p>
-    <iframe
-      src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1XQ9bAXj-E_1H6uOhyPhOX5bS8rAmPuxMTEym5Y5KPxM&font=Default&lang=en&initial_zoom=2&height=650"
-      width="100%" frameborder="0" height="100%"></iframe>
-  </div>
-  <!-- The div that holds our map -->
-  <div id="map">
-    <h1> map </h1>
-  </div>
-  <div id="plota">
-    <h1> plot a </h1>
-  </div>
-  <div id="plotb">
-    <h1> plot b </h1>
-  </div>
-  <div id="plotc">
-    <h1> plot c </h1>
+  <!--map-->
+  <div id="map" class="map">
   </div>
 
+  <!----->
+  <div class="percentselect" >
+    <button id="startButton">Start Animation</button>
+    <button id="stopButton">Stop Animation</button>
+  </div>
+  <div id="plota" class="plota">
+  </div>
+
+  <!--timeline-->
+  <div id="plotb" class="plotb" >
+  </div>
+  <input type="button" value="Surprise Me!" id="refresh" class="buttonb" onclick="timeLine()">
+
+  <!----->
+  <div class="barselect">
+    <select name="highlight" id="highLight">
+      <option value="true">HighLight Objects</option>
+      <option value="false">Regular Objects</option>
+      <option value="all">All Objects</option>
+    </select>
+    <label for="from">From Year: </label>
+    <input type="value" type="text" id="from" value="-100">
+    <label for="to">To Year: </label>
+    <input type="value" type="text" id="to" value="2000">
+    <input type="button" value="Search" onclick="rangeSearch()" >
+  </div>
+  <div id="plotc" class="plotc">
+  </div>
 
   <!-- Leaflet JS -->
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
   <!-- D3 JavaScript -->
   <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 
   <!-- Our JavaScript -->
   <script type="text/javascript" src="js/map.js"></script>
