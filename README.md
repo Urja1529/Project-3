@@ -1,3 +1,7 @@
+#### Summary
+
+Before middle age, limited objects are collected. In general dogs have more count, but in certain areas and era, ie, Egypt B.C., more cats' objects are found. After middle age, objects quantity is more sufficent to darw a conclusion: Dog is more closer to general public's life, hence more objects were left, but Cat shows increase trend as urbanisation.
+
 #### Data Collection and Cleaning (Team Work)
   - Data Resources: The Metropolitan Museum of Art Collection API https://metmuseum.github.io/
   - Data Collection: /py/part_01_met_api.ipnb
@@ -31,7 +35,7 @@
     * Select one geoCode randomly.
     * Try to pick 1 object for each era, randomly.
     * If unable to find 1 object in each era, then make sure to pick 5 objects in total, randomly. Avoid overlapping by removing selected objects.
-Select information, add as string, insert to html div.
+    * Select information, add as string, insert to html div.
   - Button Design:
     * Clean div by id after click.
     * Run previous code with a new region. 
