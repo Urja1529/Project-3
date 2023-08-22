@@ -19,30 +19,35 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
 
 
+  <!-- Timeline KnightLab -->
   <link title="timeline-styles" rel="stylesheet"
     href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
-
+  <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
 </head>
 
 <body>
 
   <!-- The div that holds our map -->
-  <div id="map">
+  <div>
     <!-- Map content will be added here -->
+    <div id="map" style="width: 500px; height: 500px;">
+
+    </div>
   </div>
-  
+
   <!-- Additional sections for plots -->
   <div id="plota">
     <!-- Plot A content will be added here -->
   </div>
-  
+
   <div id="plotb">
     <!-- Plot B content will be added here -->
   </div>
-  
+
   <div id="plotc">
     <h1>Riddhi Mistry Plot C:</h1>
     <p>Timeline showcasing cat and dog art pieces based on the year they were made.</p>
+    <a href="timeline.html">Click here to view Timeline:</a>
     <div id='timeline-embed' style="width: 600px; height: 600px;"></div>
   </div>
 
@@ -62,19 +67,6 @@
   <script type="text/javascript" src="js/plota.js"></script>
   <script type="text/javascript" src="js/plotb.js"></script>
   <script type="text/javascript" src="js/plotc.js"></script>
-
-
-  <!-- Timeline KnightLab -->
-  <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
-  <script type="text/javascript">
-    /*
-      Due to the nature of the javascript library I am require to host the csv file online
-      However, the same CSV file can be found in /data/riddhi-mistry-art-data-timeline.csv
-    */
-    timeline = new TL.Timeline('timeline-embed',
-      'https://docs.google.com/spreadsheets/d/1XQ9bAXj-E_1H6uOhyPhOX5bS8rAmPuxMTEym5Y5KPxM/edit#gid=801854951',
-    );
-  </script>
 </body>
 
 </html>
