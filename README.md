@@ -1,6 +1,6 @@
 #### Summary
 
-Before middle age, limited objects are collected. In general dogs have more count, but in certain areas and era, ie, Egypt B.C., more cats' objects are found. After middle age, objects quantity is more sufficent to darw a conclusion: Dog is more closer to general public's life, hence more objects were left, but Cat shows increase trend as urbanisation.
+Before middle age, limited objects are collected. In general dogs have more count, but in certain areas and era, ie, Egypt B.C., more cats' objects are found. After middle age, objects quantity is more sufficent to draw a conclusion: Dog is more closer to general public's life, hence more objects were left, but Cat shows increase trend as urbanisation.
 
 #### Data Collection and Cleaning (Team Work)
   - Data Resources: The Metropolitan Museum of Art Collection API https://metmuseum.github.io/
