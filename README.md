@@ -24,9 +24,9 @@
   - 3 API search based on team, app.route is added as url in the main html script.
   - 3 url links to git pages. Details below.
 
-#### Visual Data Explorer
+### Visual Data Explorer
 
-##### TimeLine: Surprise Me! (Jiaolu Xie): /js/plotb.js
+#### TimeLine: Surprise Me! (Jiaolu Xie): /js/plotb.js
   - Code Structure:
     * Select one geoCode randomly.
     * Try to pick 1 object for each era, randomly.
