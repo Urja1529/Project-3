@@ -1,7 +1,7 @@
 #### Data Collection and Cleaning (Team Work)
   - Data Resources: The Metropolitan Museum of Art Collection API https://metmuseum.github.io/
   - Data Collection: /py/part_01_met_api.ipnb
-    a. Required object list by key words “cat” and “dog”, via API.
+    * Required object list by key words “cat” and “dog”, via API.
     b. Request object details for each object ID
 Data Clean: /py/part_01_met_api.ipnb
 Due to overlapping “cat” and “dog”, the total objects collected is more than 50000 objects.
