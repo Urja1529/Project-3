@@ -42,10 +42,9 @@
 //     return rand;
 //   };
   
-  
-url_met = "https://raw.githubusercontent.com/Urja1529/Project-3/main/data/met_data.json";
 
-d3.json(url_met).then(function(fetcheddata) {
+
+d3.json(met_url).then(function(fetcheddata) {
 console.log("museum:", fetcheddata);
 
 //  // group by for yearcentry

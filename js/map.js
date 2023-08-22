@@ -23,11 +23,14 @@ var baseLayers = {
 };
 
 
+let met_url = "https://raw.githubusercontent.com/Urja1529/Project-3/main/data/met_data.json"
+let map_url = "https://raw.githubusercontent.com/Urja1529/Project-3/main/data/map_point.json";
+
 
 // Fetch JSON data for MET data
 Promise.all([
-    d3.json('https://raw.githubusercontent.com/Urja1529/Project-3/main/data/met_data.json'),
-    d3.json('https://raw.githubusercontent.com/Urja1529/Project-3/main/data/map_point.json')
+    d3.json(met_url),
+    d3.json(map_url)
 ]).then(function([met_data, map_data]) {
     console.log(met_data);
     console.log(map_data);
@@ -57,19 +60,19 @@ Promise.all([
 
     // Define custom icons for Cat, Dog, and Both
     var catIcon = L.icon({
-        iconUrl: 'img/cat.png',
+        iconUrl: 'img/cat_6.png',
         iconSize: [32, 32],
         iconAnchor: [16, 32]
     });
     var dogIcon = L.icon({
-        iconUrl: 'img/dog.png',
+        iconUrl: 'img/dog_3.png',
         iconSize: [32, 32],
-        iconAnchor: [16, 32]
+        iconAnchor: [-16, 32]
     });
     var bothIcon = L.icon({
-        iconUrl: 'img/cat&dog.jpeg',
+        iconUrl: 'img/heart.png',
         iconSize: [32, 32],
-        iconAnchor: [16, 32]
+        iconAnchor: [0, 50]
     });
 
     // Define overlays using the provided object
@@ -123,9 +126,10 @@ Promise.all([
     }
 
     // Add the overlays to the map
-    for (var key in overlays) {
-        overlays[key].addTo(myMap);
-    }
+    // for (var key in overlays) {
+    //     overlays[key].addTo(myMap);
+    // }
+    overlays['B.C.'].addTo(myMap);
 
     // Add the default esri_tile layer to the map
     esri_tile.addTo(myMap);
