@@ -30,7 +30,7 @@
   - Code Structure:
     * Select one geoCode randomly.
     * Try to pick 1 object for each era, randomly.
-    * If unable to find 1 object in each era, then make sure to select 5 objects randomly. Avoid overlapping by removing selected objects.
+    * If unable to find 1 object in each era, then make sure to pick 5 objects in total, randomly. Avoid overlapping by removing selected objects.
 Select information, add as string, insert to html div.
   - Button Design:
     * Clean div by id after click.
