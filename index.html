@@ -13,18 +13,15 @@
 
   <!-- Our CSS -->
   <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+  <link title="timeline-styles" rel="stylesheet"
+    href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
+
 </head>
 
 <body>
 
-  <!-- Source timeline code: https://timeline.knightlab.com -->
-  <div style="border: 5px solid black; margin: 15px; height: 100%; width: 100%;">
-    <h1>Riddhi Mistry Plot C:</h1>
-    <p>Timeline showcasing cat and dog art pieces based on the year they were made.</p>
-    <iframe
-      src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1XQ9bAXj-E_1H6uOhyPhOX5bS8rAmPuxMTEym5Y5KPxM&font=Default&lang=en&initial_zoom=2&height=650"
-      width="100%" frameborder="0" height="100%"></iframe>
-  </div>
   <!-- The div that holds our map -->
   <div id="map">
     <h1> map </h1>
@@ -36,7 +33,9 @@
     <h1> plot b </h1>
   </div>
   <div id="plotc">
-    <h1> plot c </h1>
+    <h1>Riddhi Mistry Plot C:</h1>
+    <p>Timeline showcasing cat and dog art pieces based on the year they were made.</p>
+    <div id='timeline-embed' style="width: 600px; height: 600px;"></div>
   </div>
 
 
@@ -52,6 +51,19 @@
   <script type="text/javascript" src="js/plota.js"></script>
   <script type="text/javascript" src="js/plotb.js"></script>
   <script type="text/javascript" src="js/plotc.js"></script>
+
+
+  <!-- Timeline KnightLab -->
+  <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+  <script type="text/javascript">
+    /*
+      Due to the nature of the javascript library I am require to host the csv file online
+      However, the same CSV file can be found in /data/riddhi-mistry-art-data-timeline.csv
+    */
+    timeline = new TL.Timeline('timeline-embed',
+      'https://docs.google.com/spreadsheets/d/1XQ9bAXj-E_1H6uOhyPhOX5bS8rAmPuxMTEym5Y5KPxM/edit#gid=801854951',
+    );
+  </script>
 </body>
 
 </html>
