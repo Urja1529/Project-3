@@ -27,14 +27,14 @@
 #### Visual Data Explorer
 
 ##### TimeLine: Surprise Me! (Jiaolu Xie): /js/plotb.js
-Code Structure:
-Select one geoCode randomly.
-Try to pick 1 object for each era, randomly.
-If unable to find 1 object in each era, then make sure to select 5 objects randomly. Avoid overlapping by removing selected objects.
+  - Code Structure:
+    * Select one geoCode randomly.
+    * Try to pick 1 object for each era, randomly.
+    * If unable to find 1 object in each era, then make sure to select 5 objects randomly. Avoid overlapping by removing selected objects.
 Select information, add as string, insert to html div.
-Button Design:
-Clean div by id after click.
-Run previous code with a new region. 
+  - Button Design:
+    * Clean div by id after click.
+    * Run previous code with a new region. 
 
 #### Map (): /js/map.js
 #### Bar Plot and Animation (): /js/plota.js, /js/plotc.js, /js/plota-animation.js
