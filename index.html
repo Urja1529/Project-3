@@ -30,21 +30,38 @@
   <!-- The div that holds our map -->
   <div>
     <!-- Map content will be added here -->
-    <div id="map" style="width: 500px; height: 500px;">
+    <div id="map" class="map">
 
     </div>
   </div>
 
   <!-- Additional sections for plots -->
-  <div id="plota">
+  <div id="plota"  class="plota">
     <!-- Plot A content will be added here -->
   </div>
 
-  <div id="plotb">
+  <div id="plotb" class="plotb" >
+  </div>
+  <input type="button" value="Surprise Me!" id="refresh" class="buttonb" onclick="timeLine()">
+
     <!-- Plot B content will be added here -->
   </div>
-
-  <div id="plotc">
+<div class="barselect">
+    <select name="highlight" id="highLight">
+      <option value="true">HighLight Objects</option>
+      <option value="false">Regular Objects</option>
+      <option value="all" selected>All Objects</option>
+    </select>
+    <label for="from">From Year: </label>
+    <input type="value" type="text" id="from" value="-1000">
+    <label for="to">To Year: </label>
+    <input type="value" type="text" id="to" value="2023">
+    <input type="button" value="Search" onclick="rangeSearch()" >
+  </div>
+  <div id="plotc" class="plotc">
+  </div>
+  
+  <div>
     <h1>Riddhi Mistry Plot C:</h1>
     <p>Timeline showcasing cat and dog art pieces based on the year they were made.</p>
     <a href="timeline.html">Click here to view Timeline:</a>
