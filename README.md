@@ -41,7 +41,28 @@ Before middle age, limited objects are collected. In general dogs have more coun
     * Run previous code with a new region. 
 
 #### Map (): /js/map.js
-#### Bar Plot and Animation (): /js/plota.js, /js/plotc.js, /js/plota-animation.js
+#### Bar Plot and Animation (Kangna Parekh): /js/plota.js, /js/plotc.js, /js/plota-animation.js
+* This code outputs an animated bar chart visualization that compares the search results for different categories ("Cat," "Dog," and "Both") over different centuries. Here's what each part of the output displays:
+
+* Bar Chart Visualization: The main output is an animated bar chart displayed on a web page. The chart has three bars for each century, representing the percentage distribution of search results among the three categories ("Cat," "Dog," and "Both").
+
+* Initial Display: When you first load the page, you will see the initial state of the bar chart. It displays the distribution of search results for the first century in a stacked bar format.
+
+* Slider: Below the bar chart, there is a slider with labels corresponding to each century. This slider allows you to select a specific century and view its search result distribution.
+
+* Animation: By clicking the "Start" button, the animation begins. The bars in the chart smoothly transition from one century's data to the next, showing how the distribution of search results changes over time.
+
+* Control Buttons: The "Start" button initiates the animation, and the "Stop" button halts the animation at the current state.
+
+* Real-Time Update: As the animation progresses, the chart and slider update in real time to reflect the changing search result distribution for each century.
+
+* Overall, this output is an interactive and dynamic visualization that allows viewers to observe trends and changes in search results over centuries for different categories, enhancing the understanding of the data's historical context.
+
+
+
+
+
+
 
 #### Timeline: Overview (): /
 
