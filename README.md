@@ -64,10 +64,25 @@ Before middle age, limited objects are collected. In general dogs have more coun
 * Overall, this output is an interactive and dynamic visualization that allows viewers to observe trends and changes in search results over centuries for different categories, enhancing the understanding of the data's historical context.
 
 
+#### Timeline ( Riddhi Mistry): /js/timeline.js
 
+##### Overview
+This open-sourced timeline library from KnightLab (https://timeline.knightlab.com) allows to display the art gallery data in chronological order.
 
+This library was essential to our project, it fully highlighted the change of art overtime, showcased the forms of media, and demonstrated how art has evolved over time!
 
+##### Key Features
 
+ 1. **Slider**: Ability to pan left and left seemlessly across time
+ 2. **Zoom functionality**: Ability to zoom in and out, to get more detail views and break down of time.
+ 3. **Control Buttons**: Left and right button to go to next and previous art piece
+ 4. **Skip Buttons**: Ability to quickly skip to end or beginning of the timeline
+ 5. **Real Time Updates**: Fully integrated with a database which it pulls live data from.
+ 6. **Fully animated library**: Allows for a more modern feel 
+ 7. **Card View**: Ability to display key information as well as images to illustrate the art piece
+ 8. **Fully Customizable**: Ability to customize all aspect of the timeline component
+ 9. **Low memory consumption**: Allows it to be rendered on slower low memory devices
+ 10.  9. **Quick Set Up**: plug and play
+![Sample of Chronological Timeline](https://ibb.co/qxRbtRT)
 
-#### Timeline: Overview (): /
 
