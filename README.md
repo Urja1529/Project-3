@@ -40,7 +40,12 @@ Before middle age, limited objects are collected. In general dogs have more coun
     * Clean div by id after click.
     * Run previous code with a new region. 
 
-#### Map (): /js/map.js
+#### Map (Urja Dudhwala): /js/map.js
+  - icon with dog/cat/heart image, shows there are objects found at this time this area
+  - layer of time range
+  - popup with key/highlighted object and image (if there is, otherwise not highlighted object)
+  - title in popup linked to museum object page
+    
 #### Bar Plot and Animation (Kangna Parekh): /js/plota.js, /js/plotc.js, /js/plota-animation.js
 * This code outputs an animated bar chart visualization that compares the search results for different categories ("Cat," "Dog," and "Both") over different centuries. Here's what each part of the output displays:
 
