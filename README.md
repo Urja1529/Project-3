@@ -82,7 +82,10 @@ This library was essential to our project, it fully highlighted the change of ar
  7. **Card View**: Ability to display key information as well as images to illustrate the art piece
  8. **Fully Customizable**: Ability to customize all aspect of the timeline component
  9. **Low memory consumption**: Allows it to be rendered on slower low memory devices
- 10.  9. **Quick Set Up**: plug and play
+ 10. **Quick Set Up**: plug and play
+
+##### Sample of Chronological Timeline
+
 ![Sample of Chronological Timeline](https://github.com/UofT-Bootcamp-Data-Analytics/Project_3/assets/32605242/845ac9ca-0195-4651-af79-ec6253d19036)
 
 
