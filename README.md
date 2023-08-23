@@ -26,7 +26,7 @@ Before middle age, limited objects are collected. In general dogs have more coun
 #### Python Flask (Jiaolu Xie): /py/part_03_app.py
   - Data: data/met_data.sqlite
   - 3 API search based on team, app.route is added as url in the main html script.
-  - 3 url links to git pages. Details below.
+  - 3 url links to git pages. https://urja1529.github.io/Project-3/ Details below.
 
 ### Visual Data Explorer
 
