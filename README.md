@@ -41,10 +41,21 @@ Before middle age, limited objects are collected. In general dogs have more coun
     * Run previous code with a new region. 
 
 #### Map (Urja Dudhwala): /js/map.js
-  - icon with dog/cat/heart image, shows there are objects found at this time this area
-  - layer of time range
-  - popup with key/highlighted object and image (if there is, otherwise not highlighted object)
-  - title in popup linked to museum object page
+The Historical Objects Map project utilizes Leaflet, a JavaScript library for interactive maps, to display historical objects associated with different teams (cat, dog, both) across various time periods. The map features custom icons for each team and popups with detailed information about the objects.
+
+Here's a brief overview:
+
+Map Initialization: The project starts with a Leaflet map centered at coordinates [0, 0] and a zoom level of 2.
+
+Base Tile Layers: Three base maps are available: OpenStreetMap for streets, Esri World Imagery for satellite imagery, and OpenTopoMap for topographic views.
+
+Data Handling: Data is fetched from external JSON sources containing information about the objects and their locations.
+
+Marker Icons: Custom icons are designed for the three teams: cat, dog, and both.
+
+Layer Groups: Objects are categorized into time periods and organized into LayerGroup overlays for easy visualization.
+
+Popups: Markers display popups with details about the objects, including team, culture, time period, country, and images where available.
     
 #### Bar Plot and Animation (Kangna Parekh): /js/plota.js, /js/plotc.js, /js/plota-animation.js
 * This code outputs an animated bar chart visualization that compares the search results for different categories ("Cat," "Dog," and "Both") over different centuries. Here's what each part of the output displays:
